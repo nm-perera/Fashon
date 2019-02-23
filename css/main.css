@@ -1,0 +1,292 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.py-5 {
+    padding: 5rem 0;
+}
+
+.btn:link,
+.btn:active {
+    display: inline-block;
+    border: 1px solid #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 0;
+    color: #fff;
+}
+
+.btn-lg:link,
+.btn-lg:active {
+    padding: 10px 38px;
+    font-size: 95%;
+    color: #333;
+}
+
+.btn:hover,
+.btn:active {
+    background: #333;
+    color: #fff;
+}
+
+.btn-sm:link,
+.btn-sm:active {
+    padding: 6px 22px;
+    font-size: 75%;
+    background: #333;
+}
+
+.heading h3 {
+    font-size: 130%;
+    font-weight: 500;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+#top-bar {
+    border-bottom: 1px solid #eee;
+    padding: 0.5rem 8rem;
+}
+
+#top-bar .top-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar-wrapper .social ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+}
+
+.top-bar-wrapper .social ul li i {
+    font-size: 100%;
+    display: inline-block;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+#top-bar .lang label {
+    margin: 0;
+}
+
+nav {
+    background: #333;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 0.75rem 0.75rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 85%;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    background: #fff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 170px;
+}
+
+header .info {
+    display: flex;
+    align-items: center;
+}
+
+header .info .call {
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+}
+
+header .info .call h3 {
+    font-size: 90%;
+    margin: 0;
+    font-weight: bold;
+}
+
+header .info .call p {
+    font-size: 75%;
+    margin: 0;
+}
+
+header .info .user {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+header .info .user i {
+    font-size: 140%;
+}
+
+header .info .cart {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+header .info .cart i {
+    font-size: 140%;
+}
+
+#slider {
+    max-height: 600px;
+    overflow: hidden;
+}
+
+#slider img {
+    width: 100%;
+}
+
+#slider .slide {
+    position: relative;
+}
+
+#slider .slide .slide-content {
+    position: absolute;
+    top: 10rem;
+    right: 10rem;
+    width: 40%;
+}
+
+#slider .slide .slide-content-2 {
+    position: absolute;
+    top: 8rem;
+    left: 15rem;
+    width: 40%;
+}
+
+/* -----------
+--- Fetured Produts
+--------------- */
+.products .product {
+    margin: 0 1rem;
+    text-align: center;
+}
+
+.products .product img {
+    width: 100%;
+    height: 100%;
+}
+
+.products .product h5 {
+    margin-top: 1rem;
+    font-size: 90%;
+    font-weight: 300;
+}
+
+.products .product p {
+    font-size: 145%;
+    font-weight: 500;
+}
+
+
+#testimonials {
+    color: #fff;
+    background: url('../img/testimonial.jpg') no-repeat center center/cover;
+}
+
+#testimonials .testimonial {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#testimonials .testimonial img {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#testimonials .testimonial p {
+    font-size: 88%;
+    margin: 1rem 20%;
+    width: 60%;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    font-size: 90%;
+}
+
+footer .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+footer .footer-wrapper .store-info div {
+    display: flex;
+    text-align: left;
+    flex: 1;
+}
+
+footer .footer-wrapper h3 {
+    font-size: 140%;
+    margin-bottom: 2rem;
+}
+
+footer .footer-wrapper .store-info div i {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+}
+
+footer .footer-wrapper .store-info div p {
+    text-align: left;
+}
+
+footer .footer-wrapper ul li a {
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+}
+
+footer .footer-wrapper input {
+    width: 100%;
+    padding: 0.3rem 1rem;
+}
